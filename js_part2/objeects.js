@@ -87,3 +87,16 @@ console.log(object_best);
 console.log(Object.keys(myobj))
 console.log(Object.values(myobj))
 console.log(Object.entries(myobj))
+
+// ************************object restructuring****************
+
+const file={
+    filename : "windows.xls",
+    file_length : 34,
+}
+
+//now to accect f_length directly we have :
+
+const {file_length : f_size}=file
+console.log(f_size)
+
