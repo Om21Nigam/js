@@ -1,13 +1,13 @@
 let str1="hello"
 let str2="50"
 
-console.log(str1+str2) //very old way of adding the string
+// console.log(str1+str2) //very old way of adding the string
 
-console.log(`This a message where i want to say ${str1} and my score is ${str2}`)
+// console.log(`This a message where i want to say ${str1} and my score is ${str2}`)
 
 //another way of writing the string is 
 const str3= new String( "wwdc_an apple event")
-console.log(str3)
+// console.log(str3)
 
 // console.log(str3[0])
 // console.log(str3.toUpperCase());

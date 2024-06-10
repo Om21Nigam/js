@@ -13,14 +13,14 @@ let myCreatedDate = new Date(2023,12,30,45,55,67,554)
 // console.log(myCreatedDate.toString())
 
 const date_now= Date.now()
-// console.log(date_now)
-// console.log(Date.getTime())
+//console.log(date_now)
+//console.log(date_now.getTime())
 
 
 const date3= new Date()
-console.log(date3)
-console.log(date3.toDateString())
-console.log(date3.getDay())
+//  console.log(date3)
+// console.log(date3.toDateString())
+// console.log(date3.getDay())
 
 //customize our display technique
 
@@ -30,5 +30,7 @@ date3.toLocaleString('default',{
 
 
     }
+
 )
+
 

@@ -22,7 +22,7 @@ const myFunction=function()
 {
     console.log("This is my first Function")
 }
-console.log(myFunction)
+console.log(myFunction())
 
 console.log(typeof myFunction)
 console.log(typeof object)

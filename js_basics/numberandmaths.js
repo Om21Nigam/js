@@ -1,5 +1,5 @@
 const score=new Number(100)
-//console.log(score);
+// console.log(score);
 
 ///now it has all properties of number
 
@@ -18,7 +18,7 @@ const anothernum = 324.7758
 // console.log(Math.max(-9.8 , 9, 0));
 console.log(Math.random()); //gives random values between 0 and 1
 
-console.log(Math.floor((Math.random()*10)+1)); //for values btw 1 and 10
+//console.log(Math.floor((Math.random()*10)+1)); //for values btw 1 and 10
 
 
 //for values btw certain range
@@ -26,6 +26,6 @@ console.log(Math.floor((Math.random()*10)+1)); //for values btw 1 and 10
 min=20
 max=40
 
-console.log(Math.floor(Math.random()*(max-min+1))+min) //may treat it as formula
+//console.log(Math.floor(Math.random()*(max-min+1))+min) //may treat it as formula
  
 

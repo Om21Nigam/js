@@ -1,13 +1,14 @@
 /* we can declare objects in two ways
 i. Singleton (Using Constructors)
-ii.Non Singleton (  as we don downwards)
+ii.Non Singleton (  as we do here downwards)
 
 */
 
 const mysym=  Symbol("hello")
+// console.log(mysym)
 
 const myobj={
-    name: "OM", //actally key is treated as "name"
+    name: "OM", //actally key is treated as : "name"
     age: 18,
     [mysym]: "keyvalue",
     email:"om@gmail.com",
@@ -19,12 +20,12 @@ const myobj={
 
 // console.log(myobj.name)
 // console.log(typeof myobj[mysym])
-
 // console.log(myobj["age"])
-console.log(myobj)
-//to resist any change in the object we can add freeze option
+// console.log(myobj)
 
+//to resist any change in the object we can add freeze option
 Object.freeze();
+
 
 //adding funtions to objects
 myobj.greeting = Function()
@@ -39,8 +40,8 @@ myobj.greetingone = Function()
 }
 
 console.log("break")
-console.log(myobj.greeting());
-console.log(myobj.greetingone());
+// console.log(myobj.greeting());
+// console.log(myobj.greetingone());
 
 
 
@@ -51,7 +52,7 @@ console.log(myobj.greetingone());
 // obj.name="rgre"
 
 
-//objcet ke andar object 
+//object ke andar object 
 
 const obj2 ={
     id :54,
@@ -65,8 +66,8 @@ const obj2 ={
     },
     age: 30,
 }
-console.log(obj2)
-console.log(obj2.fullname.fname.f1);
+// console.log(obj2)
+// console.log(obj2.fullname.fname.f1);
 
 //combining two objects//
 
@@ -74,19 +75,19 @@ let obj_1={1:"a" , 2:"b"}
 let obj_2={3:"a=c" , 4:"b=d"}
 
 let obj_3={obj_1 , obj_2}
-console.log(obj_3)
+// console.log(obj_3)
 
 let obj_easy = Object.assign({}, obj_1, obj_2)
-console.log(obj_easy)
+// console.log(obj_easy)
 
 //alternatively likewise of array
 
 let object_best = {...obj_1,...obj_2}
-console.log(object_best);
+// console.log(object_best);
 
-console.log(Object.keys(myobj))
-console.log(Object.values(myobj))
-console.log(Object.entries(myobj))
+// console.log(Object.keys(myobj))
+// console.log(Object.values(myobj))
+// console.log(Object.entries(myobj))
 
 // ************************object restructuring****************
 
@@ -95,8 +96,8 @@ const file={
     file_length : 34,
 }
 
-//now to accect f_length directly we have :
+//now to access f_length directly we have :
 
 const {file_length : f_size}=file
-console.log(f_size)
+// console.log(f_size)
 
